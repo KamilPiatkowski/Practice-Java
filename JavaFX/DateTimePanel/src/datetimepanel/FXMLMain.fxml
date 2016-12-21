@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="184.0" prefWidth="517.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="datetimepanel.FXMLMainController">
+   <children>
+      <JFXDatePicker fx:id="selectDate" defaultColor="#e53935" layoutX="189.0" layoutY="45.0" prefHeight="37.0" prefWidth="275.0" />
+      <JFXDatePicker fx:id="selectTime" defaultColor="#e53935" layoutX="189.0" layoutY="100.0" prefHeight="37.0" prefWidth="275.0" showTime="true" />
+      <Text fill="#e53935" layoutX="60.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Date">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e53935" layoutX="60.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Time" wrappingWidth="101.3095703125">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
